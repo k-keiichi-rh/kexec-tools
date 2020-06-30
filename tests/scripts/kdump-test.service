@@ -1,0 +1,9 @@
+[Unit]
+Description=Kdump Test Service
+
+[Service]
+ExecStart=/test-entry.sh
+Type=idle
+
+[Install]
+WantedBy=multi-user.target
