@@ -210,7 +210,6 @@ check_user_configured_target()
         fi
     else
         _fstype="$_cfg_fs_type"
-        _fstype="$_cfg_fs_type"
     fi
 
     # For noauto mount, mount it inplace with default value.
