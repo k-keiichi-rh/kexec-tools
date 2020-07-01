@@ -202,7 +202,7 @@ read_kdump_conf()
     get_kdump_confs
 
     # rescan for add code for dump target
-    while read config_opt config_val;
+    while read -r config_opt config_val;
     do
         # remove inline comments after the end of a directive.
         case "$config_opt" in
